@@ -3,6 +3,8 @@ from selenium import webdriver
 import time
 from selenium.webdriver.support.ui import Select
 
+#This code is about finding out specific forceclosed house data.
+
 #目前看來對於不同的選擇，像選單或者是用滑鼠點選的選項都有不同的方法，
 #即使像選單，對於不同的方法也會有不同的find_element_by
 #若同一頁面要操作不同選單，就不能用以下"高雄地方法院"那個方法，一旦用了之後其他
