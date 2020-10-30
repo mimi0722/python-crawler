@@ -1,3 +1,3 @@
 # python-crawler
 as title
-This repository is for python crawler project
+This repository is used for python crawler projects
