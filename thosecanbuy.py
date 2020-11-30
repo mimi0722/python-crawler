@@ -14,9 +14,11 @@ select.select_by_index(6)
 web.find_element_by_xpath("//input[@name='button']").click()
 time.sleep(2)
 web.find_element_by_xpath("//input[@class='small']").click()
-time.sleep(3)
-select = Select(web.find_element_by_name('hsimun'))
-select = Select(web.find_element_by_name('ctmd'))
+time.sleep(4)
+select = Select(web.find_element_by_name('hsimun'))#選擇縣市
+select.select_by_index(1)
+select = Select(web.find_element_by_name('ctmd'))#選擇區域
+select.select_by_index(18)
 web.find_element_by_xpath("//input[@type='button']").click()
 time.sleep(3)
 #for i in range(2, 16):   回圈無法在find_element_by_xpath內使用
@@ -25,7 +27,8 @@ soup = BeautifulSoup(web.page_source, 'html.parser')
 table = soup.find_all('tbody')[2]
 caselist = []
 f = open("foreclosuredata.txt", 'w')
-for i in range(1, 16):
+thelast = table.find_all('tr')[-1].find_all('td')[0].text #找出該頁最後一個按鍵的編號
+for i in range(1, int(thelast)+1):
     value = table.find_all('tr')[i].find_all('td')[6].text.replace(',','') #列出底價,並用replace去除逗號
     all = table.find_all('tr')[i].find_all('td')[5].text.strip(' ')#找出產權比例那行
     locations = table.find_all('tr')[i].find_all('td')[4].text.strip(' ')
@@ -36,6 +39,3 @@ for i in range(1, 16):
         f.write(all[16:30])
         f.write(value)
 f.close()
-
-        #listcase.append(all)
-#f.write()
