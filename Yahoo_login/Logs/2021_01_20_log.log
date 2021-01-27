@@ -1,0 +1,5 @@
+[2021-01-20 18:44:38,903]   base.py->findele line:11                                       [INFO]通過id定位,元素是login-username
+[2021-01-20 18:44:39,271]   base.py->findele line:11                                       [INFO]通過id定位,元素是login-signin
+[2021-01-20 18:44:39,423]   base.py->findele line:11                                       [INFO]通過id定位,元素是login-passwd
+[2021-01-20 18:44:40,687]   base.py->findele line:11                                       [INFO]通過id定位,元素是login-signin
+[2021-01-20 18:44:40,743]   base.py->findele line:11                                       [INFO]通過xpath定位,元素是//span[@class="D(ib) Fz(14px) Fw(b) Lh(24px) Pstart(38px)"]
