@@ -2,6 +2,8 @@
 #根據查到的資料，影片只要撥放超過30sYoutuber就能獲利，所以第二支廣告超過31s後關閉瀏覽器
 #原本是希望找出每個影片中所有的廣告，但查過一些資烙後發現即使手動安插廣告也不一定會有廣告出現，另外清單內的影片開頭出現廣告的機率會大減
 #結論是選擇一部影片並在開頭兩個廣告播完後關閉然後重開是最有效率的，每次一定有兩個廣告，變成說每次都要開關瀏覽器就是了
+#其中N為決定瀏覽器開關的次數
+#ps.有測試日誌的版本沒有辦法設定瀏覽器開關次數
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -10,10 +12,7 @@ import time
 
 if __name__ == '__main__':
     url = 'https://www.youtube.com/watch?v=Bm3vM1g-Y4c'
-    chromedriver_path = 'D:\chromedriver_win32 (1)\chromedriver.exe'
-    web = webdriver.Chrome(executable_path=chromedriver_path)
-    web.get(url)
-
+    N = 3#設定瀏覽器執行次數
     def Wait(*args):
         return WebDriverWait(web, 10).until(EC.presence_of_element_located((args)))
         # 設定9秒是因為有時候廣告間會有一段緩衝，約 9秒
@@ -27,14 +26,21 @@ if __name__ == '__main__':
         else:
             secs = int(time_[0]) * 60 + int(time_[2:])  # 若第一則廣告在60s以內則播完
             time.sleep(secs)
+    def Times():
+        time1 = Wait(By.XPATH, '//span[@class="ytp-time-duration"]').text  # 第一則廣告的時間
+        Choose(time1)  # 對於第一則廣告的篩選
+        try:  # 以防只有一則廣告
+            time2 = Wait(By.XPATH, '//span[@class="ytp-time-duration"]').text
+            Choose(time2)
+            web.quit()
+        except:
+            pass
+            web.quit()
 
-    Wait(By.XPATH, '//button[@class="ytp-large-play-button ytp-button"]').click()  # 撥放影片
-    time1 = Wait(By.XPATH, '//span[@class="ytp-time-duration"]').text  # 第一則廣告的時間
-    Choose(time1)  # 對於第一則廣告的篩選
-    try:  # 以防只有一則廣告
-        time2 = Wait(By.XPATH, '//span[@class="ytp-time-duration"]').text
-        Choose(time2)
-        web.quit()
-    except:
-        pass
-        web.quit()
+    for i in range(N):
+        chromedriver_path = 'D:\chromedriver_win32 (1)\chromedriver.exe'
+        web = webdriver.Chrome(executable_path=chromedriver_path)
+        web.get(url)
+        print(i)
+        Wait(By.XPATH, '//button[@class="ytp-large-play-button ytp-button"]').click()  # 撥放影片
+        Times()

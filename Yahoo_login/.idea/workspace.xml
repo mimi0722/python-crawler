@@ -36,7 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Foreclosure(未完成)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests in logintest.py">
@@ -180,10 +180,10 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="223" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1610629680402" />
-    <state x="553" y="292" key="FileChooserDialogImpl" timestamp="1611744684190">
+    <state x="553" y="292" key="FileChooserDialogImpl" timestamp="1611816218524">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="553" y="292" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1611744684190" />
+    <state x="553" y="292" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1611816218524" />
     <state width="1514" height="224" key="GridCell.Tab.0.bottom" timestamp="1611235137910">
       <screen x="0" y="0" width="1536" height="826" />
     </state>

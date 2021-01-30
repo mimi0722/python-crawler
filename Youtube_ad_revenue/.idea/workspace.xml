@@ -43,11 +43,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yahoo_login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests in Youtube_adtest.py">
-    <configuration name="Yahoo_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Youtube_ad_revenue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Foreclosure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,28 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yahoo_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="execute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Foreclosure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PageObject/execute.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Youtube_ad_revenue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,6 +81,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Foreclosure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in Youtube_adtest.py" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.function" />
+        <item itemvalue="Python.Youtube_ad_revenue" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.execute" />
-        <item itemvalue="Python.Yahoo_login" />
       </list>
     </recent_temporary>
   </component>
@@ -191,38 +191,38 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="553" y="292" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1611745228464" />
-    <state width="1514" height="163" key="GridCell.Tab.0.bottom" timestamp="1611745470354">
+    <state width="1514" height="227" key="GridCell.Tab.0.bottom" timestamp="1611997686054">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="163" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1611745470354" />
-    <state width="1514" height="163" key="GridCell.Tab.0.center" timestamp="1611745470354">
+    <state width="1514" height="227" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1611997686054" />
+    <state width="1514" height="227" key="GridCell.Tab.0.center" timestamp="1611997686054">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="163" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1611745470354" />
-    <state width="1514" height="163" key="GridCell.Tab.0.left" timestamp="1611745470354">
+    <state width="1514" height="227" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1611997686054" />
+    <state width="1514" height="227" key="GridCell.Tab.0.left" timestamp="1611997686054">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="163" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1611745470354" />
-    <state width="1514" height="163" key="GridCell.Tab.0.right" timestamp="1611745470354">
+    <state width="1514" height="227" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1611997686054" />
+    <state width="1514" height="227" key="GridCell.Tab.0.right" timestamp="1611997686054">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="163" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1611745470354" />
-    <state width="1500" height="250" key="GridCell.Tab.1.bottom" timestamp="1610629796674">
+    <state width="1514" height="227" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1611997686054" />
+    <state width="1514" height="255" key="GridCell.Tab.1.bottom" timestamp="1611931957619">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
-    <state width="1500" height="250" key="GridCell.Tab.1.center" timestamp="1610629796674">
+    <state width="1514" height="255" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1611931957619" />
+    <state width="1514" height="255" key="GridCell.Tab.1.center" timestamp="1611931957619">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
-    <state width="1500" height="250" key="GridCell.Tab.1.left" timestamp="1610629796674">
+    <state width="1514" height="255" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1611931957619" />
+    <state width="1514" height="255" key="GridCell.Tab.1.left" timestamp="1611931957619">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
-    <state width="1500" height="250" key="GridCell.Tab.1.right" timestamp="1610629796674">
+    <state width="1514" height="255" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1611931957619" />
+    <state width="1514" height="255" key="GridCell.Tab.1.right" timestamp="1611931957619">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
+    <state width="1514" height="255" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1611931957619" />
     <state x="153" y="0" key="SettingsEditor" timestamp="1610462366205">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
