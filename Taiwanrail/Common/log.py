@@ -1,5 +1,5 @@
 import logging, time
-from Foreclosure.Common.function import project_path
+from Common.function import project_path
 class FrameLog():
     def __init__(self, logger=None):
         self.logger = logging.getLogger(logger)
