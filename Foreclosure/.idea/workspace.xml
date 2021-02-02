@@ -25,13 +25,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -46,8 +39,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in logintest.py">
-    <configuration name="Yahoo_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python-crawler\Foreclosure" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="Foreclosure." type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Foreclosure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +57,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yahoo_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foreclosure..py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="csv_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Foreclosure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,32 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base/base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="execute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Foreclosure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PageObject/execute.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/csv_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +108,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in logintest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Foreclosure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in housetest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Foreclosure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,17 +139,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/logintest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/housetest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in logintest.py" />
-        <item itemvalue="Python.Yahoo_login" />
-        <item itemvalue="Python.base" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Foreclosure." />
+        <item itemvalue="Python.csv_data" />
         <item itemvalue="Python.function" />
-        <item itemvalue="Python.execute" />
+        <item itemvalue="Python tests.Unittests in housetest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -179,57 +177,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="464" y="221" key="#Log_Highlighting_(ideolog)" timestamp="1610871924181">
+    <state x="499" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610961700039">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="464" y="221" key="#Log_Highlighting_(ideolog)/0.0.1536.826@0.0.1536.826" timestamp="1610871924181" />
-    <state x="223" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610629680402">
+    <state x="499" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.826@0.0.1536.826" timestamp="1610961700039" />
+    <state x="553" y="292" key="FileChooserDialogImpl" timestamp="1611901927881">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="223" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1610629680402" />
-    <state x="553" y="292" key="FileChooserDialogImpl" timestamp="1611816218524">
+    <state x="553" y="292" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1611901927881" />
+    <state width="1514" height="163" key="GridCell.Tab.0.bottom" timestamp="1611846832326">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="553" y="292" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1611816218524" />
-    <state width="1514" height="224" key="GridCell.Tab.0.bottom" timestamp="1611235137910">
+    <state width="1514" height="163" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1611846832326" />
+    <state width="1514" height="163" key="GridCell.Tab.0.center" timestamp="1611846832326">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1611235137910" />
-    <state width="1514" height="224" key="GridCell.Tab.0.center" timestamp="1611235137910">
+    <state width="1514" height="163" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1611846832326" />
+    <state width="1514" height="163" key="GridCell.Tab.0.left" timestamp="1611846832326">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1611235137910" />
-    <state width="1514" height="224" key="GridCell.Tab.0.left" timestamp="1611235137910">
+    <state width="1514" height="163" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1611846832326" />
+    <state width="1514" height="163" key="GridCell.Tab.0.right" timestamp="1611846832326">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1611235137910" />
-    <state width="1514" height="224" key="GridCell.Tab.0.right" timestamp="1611235137910">
+    <state width="1514" height="163" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1611846832326" />
+    <state x="0" y="89" key="SettingsEditor" timestamp="1610892955457">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1611235137910" />
-    <state width="1500" height="250" key="GridCell.Tab.1.bottom" timestamp="1610629796674">
-      <screen x="0" y="0" width="1536" height="826" />
-    </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
-    <state width="1500" height="250" key="GridCell.Tab.1.center" timestamp="1610629796674">
-      <screen x="0" y="0" width="1536" height="826" />
-    </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
-    <state width="1500" height="250" key="GridCell.Tab.1.left" timestamp="1610629796674">
-      <screen x="0" y="0" width="1536" height="826" />
-    </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
-    <state width="1500" height="250" key="GridCell.Tab.1.right" timestamp="1610629796674">
-      <screen x="0" y="0" width="1536" height="826" />
-    </state>
-    <state width="1500" height="250" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1610629796674" />
-    <state x="153" y="0" key="SettingsEditor" timestamp="1610462366205">
-      <screen x="0" y="0" width="1536" height="826" />
-    </state>
-    <state x="153" y="0" key="SettingsEditor/0.0.1536.826@0.0.1536.826" timestamp="1610462366205" />
-    <state x="520" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1611065736594">
-      <screen x="0" y="0" width="1536" height="826" />
-    </state>
-    <state x="520" y="147" width="672" height="678" key="search.everywhere.popup/0.0.1536.826@0.0.1536.826" timestamp="1611065736594" />
+    <state x="0" y="89" key="SettingsEditor/0.0.1536.826@0.0.1536.826" timestamp="1610892955457" />
   </component>
 </project>

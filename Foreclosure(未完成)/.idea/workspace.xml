@@ -36,7 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Register_Ctrip" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Foreclosure" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -44,7 +44,7 @@
       <recent name="D:\python-crawler\Foreclosure" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in housetest.py">
+  <component name="RunManager" selected="Python.csv_data">
     <configuration name="Foreclosure." type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Foreclosure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,10 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in housetest.py" />
-        <item itemvalue="Python.Foreclosure." />
         <item itemvalue="Python.csv_data" />
         <item itemvalue="Python.function" />
+        <item itemvalue="Python tests.Unittests in housetest.py" />
+        <item itemvalue="Python.Foreclosure." />
       </list>
     </recent_temporary>
   </component>
@@ -159,26 +159,26 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="499" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.826@0.0.1536.826" timestamp="1610961700039" />
-    <state x="553" y="292" key="FileChooserDialogImpl" timestamp="1611139892741">
+    <state x="553" y="292" key="FileChooserDialogImpl" timestamp="1611816712011">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="553" y="292" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1611139892741" />
-    <state width="1514" height="276" key="GridCell.Tab.0.bottom" timestamp="1611139895654">
+    <state x="553" y="292" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1611816712011" />
+    <state width="1514" height="163" key="GridCell.Tab.0.bottom" timestamp="1611816714102">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="276" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1611139895654" />
-    <state width="1514" height="276" key="GridCell.Tab.0.center" timestamp="1611139895654">
+    <state width="1514" height="163" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1611816714102" />
+    <state width="1514" height="163" key="GridCell.Tab.0.center" timestamp="1611816714102">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="276" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1611139895654" />
-    <state width="1514" height="276" key="GridCell.Tab.0.left" timestamp="1611139895654">
+    <state width="1514" height="163" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1611816714102" />
+    <state width="1514" height="163" key="GridCell.Tab.0.left" timestamp="1611816714102">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="276" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1611139895654" />
-    <state width="1514" height="276" key="GridCell.Tab.0.right" timestamp="1611139895654">
+    <state width="1514" height="163" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1611816714102" />
+    <state width="1514" height="163" key="GridCell.Tab.0.right" timestamp="1611816714102">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1514" height="276" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1611139895654" />
+    <state width="1514" height="163" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1611816714102" />
     <state x="0" y="89" key="SettingsEditor" timestamp="1610892955457">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
